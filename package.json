@@ -3,6 +3,10 @@
 	"version": "1.0.0",
 	"main": "mechoga.js",
 	"license": "MIT",
+	"files": [
+		"mechoga.js",
+		"mechoga.test.js"
+	],
 	"scripts": {
 		"postinstall": "husky install .devops/husky || true",
 		"test": "jest"
